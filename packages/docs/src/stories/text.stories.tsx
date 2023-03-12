@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@vallhala/react'
+import { Text, TextProps } from '@devna-ds/react'
 
 export default {
 	title: 'Typography/Text',

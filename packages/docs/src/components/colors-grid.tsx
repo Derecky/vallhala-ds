@@ -1,4 +1,4 @@
-import { colors } from '@vallhala/core'
+import { colors } from '@devna-ds/core'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

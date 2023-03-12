@@ -8,7 +8,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@vallhala/core'
+} from '@devna-ds/core'
 
 export const {
   config,

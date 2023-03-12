@@ -1,5 +1,5 @@
 {
-  "name": "@vallhala/eslint-config",
+  "name": "@devna-ds/eslint-config",
   "license": "ISC",
   "private": true,
   "main": "index.js",

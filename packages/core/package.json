@@ -1,5 +1,5 @@
 {
-  "name": "@vallhala/core",
+  "name": "@devna-ds/core",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vallhala/ts-config": "*",
-    "@vallhala/eslint-config": "*",
+    "@devna-ds/ts-config": "*",
+    "@devna-ds/eslint-config": "*",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
   }

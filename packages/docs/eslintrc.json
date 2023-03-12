@@ -1,3 +1,3 @@
 {
-	"extends": "@vallhala/eslint-config"
+	"extends": "@devna-ds/eslint-config"
 }

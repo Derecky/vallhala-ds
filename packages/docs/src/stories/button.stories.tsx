@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@vallhala/react'
+import { Button, ButtonProps } from '@devna-ds/react'
 
 export default {
 	title: 'Inputs/Button',
