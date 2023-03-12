@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if(configType === 'PRODUCTION') {
-      config.base = 'devna-ds-ds'
+      config.base = 'devna-ds'
     }
 
     return config
