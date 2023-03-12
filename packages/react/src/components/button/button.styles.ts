@@ -80,3 +80,5 @@ export const Button = styled('button', {
     size: 'md',
   },
 })
+
+Button.displayName = 'Button'
