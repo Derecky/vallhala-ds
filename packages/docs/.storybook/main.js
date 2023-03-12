@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if(configType === 'PRODUCTION') {
-      config.base = 'devna-ds'
+      config.base = '/devna-design-system/'
     }
 
     return config
