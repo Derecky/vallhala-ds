@@ -1,1 +1,2 @@
-export * from './box'
+export * from './Box'
+export * from './box.types'

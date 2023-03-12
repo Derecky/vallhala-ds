@@ -1,4 +1,3 @@
-import { ComponentProps, ElementType } from 'react'
 import { styled } from '../../lib/stitches'
 
 export const Box = styled('div', {
@@ -7,7 +6,3 @@ export const Box = styled('div', {
   backgroundColor: '$blue500',
   border: '1px solid $blue300',
 })
-
-export interface BoxProps extends ComponentProps<typeof Box> {
-  as?: ElementType
-}
