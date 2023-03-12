@@ -1,4 +1,3 @@
-import { ComponentProps, ElementType } from 'react'
 import { styled } from '../../lib/stitches'
 
 export const Text = styled('p', {
@@ -29,7 +28,3 @@ export const Text = styled('p', {
     size: 'md',
   },
 })
-
-export interface TextProps extends ComponentProps<typeof Text> {
-  as?: ElementType
-}
