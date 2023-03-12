@@ -24,4 +24,6 @@ export const colors = {
   yellow100: '#FCC168',
   yellow200: '#FAA627',
   yellow300: '#AF741B',
+
+  btn: '#E3A719',
 } as const
