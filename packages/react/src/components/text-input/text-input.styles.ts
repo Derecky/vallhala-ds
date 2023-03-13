@@ -17,6 +17,18 @@ export const TextInputContainer = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  variants: {
+    error: {
+      true: {
+        borderColor: '$danger',
+        color: '$danger',
+        input: {
+          color: '$danger',
+        },
+      },
+    },
+  },
 })
 
 export const Prefix = styled('span', {
@@ -25,11 +37,24 @@ export const Prefix = styled('span', {
   color: '$gray400',
   fontWeight: '$regular',
 })
+
+export const InputWrapper = styled('span', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '$1',
+})
+
 export const ErrorContainer = styled('span', {
   fontFamily: '$default',
   fontSize: '$xs',
   color: '$danger',
   fontWeight: '$regular',
+  height: '$4',
+
+  display: 'flex',
+  justifyContent: 'start',
+  alignItems: 'center',
+  textAlign: 'left',
 })
 
 export const Input = styled('input', {

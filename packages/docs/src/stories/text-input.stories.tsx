@@ -4,11 +4,11 @@ import { Box, Text, TextInput, TextInputProps } from '@devna-ds/react'
 export default {
 	title: 'Form/Text Input',
 	component: TextInput,
-	args: {},
+	
 	decorators: [
 		(Story) => {
 			return (
-				<Box as="label" css={{ display: 'flex', flexDirection: "column", gap: "$2" }}>
+				<Box as="label" css={{ display: 'flex', flexDirection: "column", gap: '$1' }}>
 					<Text size='sm'>Name:</Text>
 					{Story()}
 				</Box>
@@ -31,8 +31,14 @@ export const Disabled: StoryObj<TextInputProps> = {
 
 export const WithPrefix: StoryObj<TextInputProps> = {
 	args: {
-		prefix: 'test.com/'
+		prefix: 'test.com/',
+		placeholder: 'your-name'
 	}
 }
 
+export const WithError: StoryObj<TextInputProps> = {
+	args: {
+		error: 'Insert a valid Name'
+	}
+}
 
