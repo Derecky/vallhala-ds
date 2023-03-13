@@ -1,5 +1,11 @@
 # @devna-ds/react
 
+## 3.0.0
+
+### Major Changes
+
+- 7bba057: Add TextArea, Checkbox, MultiStep components
+
 ## 2.0.0
 
 ### Major Changes
