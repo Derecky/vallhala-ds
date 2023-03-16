@@ -5,6 +5,10 @@ export default {
   title: "Feedback/Toast",
   component: Toast,
   argTypes: {
+    position: {
+      options: ['bottom-right', 'bottom-center', 'bottom-left', 'top-right', 'top-center', 'top-left'],
+      control: { type: "inline-radio"}
+    },
     type: {
       options: ["primary", "informative", "positive", "notice", "negative"],
       control: { type: "select" },
@@ -13,6 +17,7 @@ export default {
       options: ["on", "off"],
       control: { type: "select" },
     },
+   
   },
   parameters: {
     docs: {
@@ -69,4 +74,5 @@ ToastStory.args = {
   background: "on",
   dismissible: true,
   content: "I'm a toast",
+  position: 'bottom-right'
 };
