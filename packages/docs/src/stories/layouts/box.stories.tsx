@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Box, BoxProps, Text } from '@devna-ds/react'
 
 export default {
-	title: 'Surfaces/Box',
+	title: 'Layout/Box',
 	component: Box,
 	args: {
 		children: (

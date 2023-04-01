@@ -2,7 +2,7 @@ import { Button, Toast, ToastProps, ToastProvider, useToast } from "@devna-ds/re
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 export default {
-  title: "Feedback/Toast",
+  title: "Overlay/Toast",
   component: Toast,
   argTypes: {
     position: {
