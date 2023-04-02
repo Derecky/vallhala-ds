@@ -48,7 +48,6 @@ export const Tertiary: StoryObj<ButtonProps> = {
 	args: {
 		variant: 'tertiary',
 		children: 'Cancel',
-
 	}
 }
 
