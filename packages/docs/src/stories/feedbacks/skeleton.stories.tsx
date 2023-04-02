@@ -26,6 +26,8 @@ export const Primary: StoryObj<SkeletonProps> = {
 export const Circle: StoryObj<SkeletonProps> = {
 	args: {
 		radius: 'full',
+		width: 75,
+		height: 75,
 	}
 }
 
