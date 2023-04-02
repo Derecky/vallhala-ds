@@ -1,0 +1,2 @@
+import{A as t}from"./index-936e25fe.js";import"./index-439cbaf1.js";import"./iframe-0946b9f3.js";import"./index-a703d8f1.js";import"./jsx-runtime-ce12df7a.js";const i={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/Devna-Team.png",alt:"Devna Team"},argTypes:{src:{control:{type:"text"}}}},m={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{m as Primary,p as WithFallback,c as __namedExportsOrder,i as default};
+//# sourceMappingURL=avatar.stories-1c394bdc.js.map
